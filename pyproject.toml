@@ -1,0 +1,22 @@
+[project]
+name = "star"
+version = "0.1.0"
+description = "A lightweight, self-hosted Starboard bot for Discord."
+license = "MIT"
+readme = "README.md"
+requires-python = "~=3.13.3"
+authors = [{ name = "June", email = "junapur@proton.me" }]
+maintainers = [{ name = "June", email = "junapur@proton.me" }]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/junapur/Star"
+Repository = "https://github.com/junapur/Star"
+Issues = "https://github.com/junapur/Star/issues"
+
+[project.scripts]
+star = "star:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
