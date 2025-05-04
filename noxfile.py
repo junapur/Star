@@ -37,10 +37,8 @@ def type_check(session: nox.Session) -> None:
         "sync",
         "--locked",
         "--no-default-groups",
-        "--group",
-        "nox",
-        "--group",
-        "type-check",
+        "--group=nox",
+        "--group=type-check",
         env={"UV_PROJECT_ENVIRONMENT": session.virtualenv.location},
     )
     session.run("pyright")
