@@ -6,7 +6,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "saturday"
-      time: "12:00"
+      time: "08:00"
       timezone: "America/New_York"
     reviewers:
       - "junapur"
@@ -18,7 +18,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "saturday"
-      time: "12:00"
+      time: "08:00"
       timezone: "America/New_York"
     reviewers:
       - "junapur"
