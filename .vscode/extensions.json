@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        // Python stuff.
+        "ms-python.python",
+
+        // Ruff linter/formatter.
+        "charliermarsh.ruff",
+
+        // YAML stuff.
+        "redhat.vscode-yaml",
+
+        // TOML stuff.
+        "tamasfe.even-better-toml"
+    ]
+}
