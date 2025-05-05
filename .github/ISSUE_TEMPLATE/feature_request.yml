@@ -23,7 +23,7 @@ body:
     id: checklist
     attributes:
       label: Checklist
-      description: Before submitting, please confirm you've completed these steps
+      description: Before submitting, please confirm you've completed these steps.
       options:
         - label: I've searched the issue tracker and confirmed this isn't a duplicate.
           required: true
