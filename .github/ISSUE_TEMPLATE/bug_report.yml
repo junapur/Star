@@ -4,6 +4,12 @@ title: "[Bug]: "
 labels: ["bug"]
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        🐞 **Spotted a bug?**  
+        Let us know what went wrong and what you expected to happen so we can fix it.
+
   - type: textarea
     id: what-happened
     attributes:
