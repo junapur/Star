@@ -7,8 +7,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        🐞 **Spotted a bug?**  
-        Let us know what went wrong and what you expected to happen so we can fix it.
+        **Spotted a bug?** 🐞
+        Let us know what went wrong so we can fix it.
 
   - type: textarea
     id: what-happened
@@ -45,7 +45,7 @@ body:
     id: checklist
     attributes:
       label: Checklist
-      description: Before you submit your report, make sure you have done these tasks.
+      description: Before submitting, please confirm you've completed these steps
       options:
-        - label: I have searched the issue tracker and made sure this report is not a duplicate.
+        - label: I've searched the issue tracker and confirmed this isn't a duplicate.
           required: true
