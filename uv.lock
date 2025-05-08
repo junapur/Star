@@ -172,9 +172,9 @@ type-check = [
 [package.metadata]
 
 [package.metadata.requires-dev]
-lint = [{ name = "ruff", specifier = "==0.11.8" }]
-nox = [{ name = "nox", specifier = "==2025.5.1" }]
-type-check = [{ name = "pyright", specifier = "==1.1.400" }]
+lint = [{ name = "ruff", specifier = "~=0.11.8" }]
+nox = [{ name = "nox", specifier = "~=2025.5.1" }]
+type-check = [{ name = "pyright", specifier = "~=1.1.400" }]
 
 [[package]]
 name = "typing-extensions"
